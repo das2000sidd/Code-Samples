@@ -23,4 +23,3 @@ def findLongestLength(dictOfContiguousOneLengths):
 print(findLongestLength(dictOfOneCountByStartingPos))
 
 
-## Works but not sure if best solution. Need to implement binary search	
