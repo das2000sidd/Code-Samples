@@ -1,5 +1,5 @@
 ## This code for the file testingChrIndexFinding.txt uses binary search to find the first and last index of 
-## an item in a sorted list. The motivation behind this code was this is useful 
+## an item in a sorted list. The motivation behind this code was this is useful to find first and last item in a list for subsequent slicing
 import re
 def readTestFile(file): ## Working fine
 	handle=open(file)
