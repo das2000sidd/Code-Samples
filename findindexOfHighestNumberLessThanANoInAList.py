@@ -1,7 +1,7 @@
 ## This is python code for a version of binary search where given a sorted list, we can retrieve index
 ## of highest number less than a particular number from the list as well as index of smallest number
 ##greater than unknown number. An application of this logic would be given a large sorted file of human genetic
-## variants by chromosome and position the chromosome, this logic can be used to pull out variants in specific genes
+## variants by chromosome number and position on the chromosome, it can be used to pull out variants in specific genes
 ## with known start and end positions on a chromosome instead of using linear search.
 
 A=[3,14,19,36,75,90,130,140,160,182,189,196]
