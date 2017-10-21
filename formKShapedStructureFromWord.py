@@ -1,3 +1,4 @@
+## This is a demonstration of use of stack
 def push(stack,letter):
 	stack.append(letter)
 	
