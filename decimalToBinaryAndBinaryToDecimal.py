@@ -38,4 +38,22 @@ def binaryToDecimal(binaryNum):
 print("Testing getting decimal formay of any binary num")
 print(binaryToDecimal(B1))	
 print(binaryToDecimal(B2))
+
+
+
+def decimalToBinaryWithRecursion(anyNum):
+	binaryNum=""
+	if(anyNum>0):
+		rem=anyNum%2
+		remStr=str(rem)
+		binaryNum=binaryNum+remStr
+		return(str(decimalToBinaryWithRecursion(anyNum//2))+binaryNum)
+	else:
+		return ("")
+		
+
+
+print(decimalToBinaryWithRecursion(33))
+print(decimalToBinaryWithRecursion(32))
+print(decimalToBinaryWithRecursion(65))
 	
