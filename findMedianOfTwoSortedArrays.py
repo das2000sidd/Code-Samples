@@ -2,7 +2,7 @@
 ## In this probllem given two sorted arrays we have to find their median
 sortedArray1=[1,3]
 sortedArray2=[2]
-def mergeTwoSortedArrays(sortedArray1,sortedArray2):
+def getMedian(sortedArray1,sortedArray2):
 	combinedSortedArray=[]
 	while(len(sortedArray1) > 0 and len(sortedArray2) > 0):
 		if(sortedArray1[0]  > sortedArray2[0]):
@@ -26,5 +26,5 @@ def mergeTwoSortedArrays(sortedArray1,sortedArray2):
 	
 sortedArray3=[1,2,3,4]
 sortedArray4=[5,6,7,8]
-print(mergeTwoSortedArrays(sortedArray1,sortedArray2))
-print(mergeTwoSortedArrays(sortedArray3,sortedArray4))
+print(getMedian(sortedArray1,sortedArray2))
+print(getMedian(sortedArray3,sortedArray4))
