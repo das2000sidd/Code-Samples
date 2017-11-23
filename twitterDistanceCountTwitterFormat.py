@@ -37,21 +37,6 @@ def findANumberDistTwo(listOfNumsSorted,numAtDistTwo):
 					low=mid+1
 		return -1
 		
-		
-def findNumOfPairAtDistTwo(listOfNums,distance):
-	listOfNumsSorted=mergeSort(listOfNums)
-	
-	noOfPairsAtDistTwo=0
-	for aNum in listOfNumsSorted:
-		
-		positionOfNumAtDistTwo=findANumberDistTwo(listOfNumsSorted,aNum+distance)
-		##print("This is the num " + str(aNum))
-		##print("This is the position of num at dist 2 " + str(positionOfNumAtDistTwo))
-		if(positionOfNumAtDistTwo!=-1):
-			noOfPairsAtDistTwo=noOfPairsAtDistTwo+1
-	return noOfPairsAtDistTwo
-		
-
 
 def fixedDistance(a, d):
 	listOfNumsSorted=mergeSort(a)
